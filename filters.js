@@ -11,7 +11,7 @@ var rockets = [
 // Print the original array
 console.log('Original array:', rockets);
 
-// Filter to include only people of age 18 or higher
+// Filter to include ONLY people of age 18 or higher
 var adults = rockets.filter(function(person) {
     return person.age >= 18;
 });
